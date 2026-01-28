@@ -1,0 +1,555 @@
+[
+{
+    "sport": "Girls Soccer",
+    "title": "Trevor vs Columbia Prep",
+    "date": "2025-10-10",
+    "time": "16:30",
+    "url": "GirlSoccerStats.html",
+    "result": "Win",
+    "score_us": 3,
+    "score_them": 1,
+    "location": "Randall's Island"
+  },
+	
+{
+    "sport": "Girls Soccer",
+    "title": "Trevor vs Grace Church",
+    "date": "2025-10-17",
+    "time": "16:30",
+    "url": "SoccerPage.html",
+    "result": "Loss",
+    "score_us": 2,
+    "score_them": 4,
+    "location": "School B Stadium"
+  },
+
+{
+    "sport": "Boys Soccer",
+    "title": "Trevor vs Browning",
+    "date": "2025-10-18",
+    "time": "16:30",
+    "url": "SoccerPage.html",
+    "result": "Win",
+    "score_us": 5,
+    "score_them": 1,
+    "location": "Randall's Island"
+  },
+	
+{
+    "sport": "Cross Country",
+    "title": "Trevor vs NYCAL Meet #1",
+    "date": "2025-09-04",
+    "time": "15:45",
+    "url": "SoccerPage.html",
+    "result": "2nd Place",
+    "score_us": 52,
+    "score_them": null,
+    "location": "Van Cortlandt Park"
+  },
+	
+{
+    "sport": "Cross Country",
+    "title": "Trevor vs NYCAL Meet #2",
+    "date": "2025-09-11",
+    "time": "16:00",
+    "url": "SoccerPage.html",
+    "result": "4th Place",
+    "score_us": 101,
+    "score_them": null,
+    "location": "Van Cortlandt Park"
+  },
+	
+{
+    "sport": "Cross Country",
+    "title": "Trevor vs NYCAL Meet #3",
+    "date": "2025-09-18",
+    "time": "16:15",
+    "url": "SoccerPage.html",
+    "result": "win",
+    "score_us": 75,
+    "score_them": null,
+    "location": "Van Cortlandt Park"
+  },
+	
+{
+    "sport": "Cross Country",
+    "title": "Trevor vs NYCAL Meet #4",
+    "date": "2025-09-25",
+    "time": "16:00",
+    "url": "SoccerPage.html",
+    "result": null,
+    "score_us": null,
+    "score_them": null,
+    "location": "Van Cortlandt Park"
+  },
+	
+{
+    "sport": "Cross Country",
+    "title": "Trevor vs NYCAL Meet #5",
+    "date": "2025-09-30",
+    "time": "16:15",
+    "url": "SoccerPage.html",
+    "result": null,
+    "score_us": null,
+    "score_them": null,
+    "location": "Van Cortlandt Park"
+  },
+	
+{
+    "sport": "Cross Country",
+    "title": "Trevor vs NYCAL Meet #6",
+    "date": "2025-10-09",
+    "time": "16:15",
+    "url": "SoccerPage.html",
+    "result": null,
+    "score_us": null,
+    "score_them": null,
+    "location": "Van Cortlandt Park"
+  },
+	
+{
+    "sport": "Cross Country",
+    "title": "Trevor vs NYCAL Meet #7",
+    "date": "2025-10-16",
+    "time": "16:00",
+    "url": "SoccerPage.html",
+    "result": null,
+    "score_us": null,
+    "score_them": null,
+    "location": "Van Cortlandt Park"
+  },
+
+{
+    "sport": "Cross Country",
+    "title": "Trevor NYCAL Championship",
+    "date": "2025-10-21",
+    "time": "15:00",
+    "url": "SoccerPage.html",
+    "result": null,
+    "score_us": null,
+    "score_them": null,
+    "location": "Van Cortlandt Park"
+  },
+	
+{
+    "sport": "Cross Country",
+    "title": "Trevor NYSAIS Championship",
+    "date": "2025-11-03",
+    "time": "15:00",
+    "url": "SoccerPage.html",
+    "result": "Loss",
+    "score_us": null,
+    "score_them": null,
+    "location": "Van Cortlandt Park"
+  },
+	
+{
+    "sport": "Winter Track",
+    "title": "Trevor VS NYCAL Meet #1",
+    "date": "2025-11-24",
+    "time": "17:30",
+    "url": "SoccerPage.html",
+    "result": "null",
+    "score_us": null,
+    "score_them": null,
+    "location": "The Armory"
+  },
+	
+{
+    "sport": "Winter Track",
+    "title": "Trevor VS Ivy League",
+    "date": "2025-12-03",
+    "time": "17:30",
+    "url": "SoccerPage.html",
+    "result": "null",
+    "score_us": null,
+    "score_them": null,
+    "location": "The Armory"
+  },
+	
+{
+    "sport": "Winter Track",
+    "title": "Trevor VS  NYCAL Meet #2",
+    "date": "2025-12-08",
+    "time": "17:30",
+    "url": "SoccerPage.html",
+    "result": "null",
+    "score_us": null,
+    "score_them": null,
+    "location": "The Armory"
+  },
+	
+{
+    "sport": "Winter Track",
+    "title": "Trevor VS  NYCAL Meet #3",
+    "date": "2025-12-17",
+    "time": "18:30",
+    "url": "SoccerPage.html",
+    "result": "null",
+    "score_us": null,
+    "score_them": null,
+    "location": "The Armory"
+  },
+	
+{
+    "sport": "Winter Track",
+    "title": "Trevor VS  NYCAL Meet #3",
+    "date": "2026-1-07",
+    "time": "17:30",
+    "url": "SoccerPage.html",
+    "result": "null",
+    "score_us": null,
+    "score_them": null,
+    "location": "The Armory"
+  },
+	
+{
+    "sport": "Girls Basketball",
+    "title": "Trevor vs Chapin",
+    "date": "2025-12-03",
+    "time": "16:30",
+    "url": "GirlsBasketballPage.html",
+    "result": null,
+    "score_us": null,
+    "score_them": null,
+    "location": "Chapin"
+  },
+	
+ {
+    "sport": "Girls Basketball",
+    "title": "Trevor vs Riverdale",
+    "date": "2025-12-05",
+    "time": "16:00",
+    "url": "GirlsBasketballPage.html",
+    "result": null,
+    "score_us": null,
+    "score_them": null,
+    "location": "Home"
+  },
+	
+{
+    "sport": "Girls Basketball",
+    "title": "Trevor vs Lycee",
+    "date": "2025-12-08",
+    "time": "16:00",
+    "url": "GirlsBasketballPage.html",
+    "result": null,
+    "score_us": null,
+    "score_them": null,
+    "location": "Lycee"
+  },
+
+{
+    "sport": "Girls Basketball",
+    "title": "Trevor vs Calhoun",
+    "date": "2025-12-10",
+    "time": "17:30",
+    "url": "GirlsBasketballPage.html",
+    "result": null,
+    "score_us": null,
+    "score_them": null,
+    "location": "Calhoun"
+  },
+	
+{
+    "sport": "Girls Basketball",
+    "title": "Trevor vs Loyola",
+    "date": "2025-12-15",
+    "time": "17:30",
+    "url": "GirlsBasketballPage.html",
+    "result": null,
+    "score_us": null,
+    "score_them": null,
+    "location": "Loyola"
+  },
+	
+{
+    "sport": "Girls Basketball",
+    "title": "Trevor vs Martin Luther",
+    "date": "2025-12-17",
+    "time": "16:15",
+    "url": "GirlsBasketballPage.html",
+    "result": null,
+    "score_us": null,
+    "score_them": null,
+    "location": "Home"
+  },
+	
+{
+    "sport": "Girls Basketball",
+    "title": "Trevor vs Trinity",
+    "date": "2026-01-07",
+    "time": "16:00",
+    "url": "GirlsBasketballPage.html",
+    "result": null,
+    "score_us": null,
+    "score_them": null,
+    "location": "Home"
+  },
+	
+{
+    "sport": "Girls Basketball",
+    "title": "Trevor vs Unis",
+    "date": "2026-01-08",
+    "time": "17:30",
+    "url": "GirlsBasketballPage.html",
+    "result": null,
+    "score_us": null,
+    "score_them": null,
+    "location": "Home"
+  },
+	
+{
+    "sport": "Girls Basketball",
+    "title": "Trevor vs Columbia Prep",
+    "date": "2026-01-10",
+    "time": "13:15",
+    "url": "GirlsBasketballPage.html",
+    "result": null,
+    "score_us": null,
+    "score_them": null,
+    "location": "Columbia"
+  },
+
+{
+    "sport": "Girls Basketball",
+    "title": "Trevor vs Grace Church",
+    "date": "2026-01-12",
+    "time": "17:30",
+    "url": "GirlsBasketballPage.html",
+    "result": null,
+    "score_us": null,
+    "score_them": null,
+    "location": "Grace Church"
+  },
+	
+{
+    "sport": "Girls Basketball",
+    "title": "Trevor vs Lycee",
+    "date": "2026-01-14",
+    "time": "16:00",
+    "url": "GirlsBasketballPage.html",
+    "result": null,
+    "score_us": null,
+    "score_them": null,
+    "location": "Home"
+  },
+	
+{
+    "sport": "Girls Basketball",
+    "title": "Trevor vs Unis",
+    "date": "2026-01-16",
+    "time": "17:30",
+    "url": "GirlsBasketballPage.html",
+    "result": null,
+    "score_us": null,
+    "score_them": null,
+    "location": "Unis"
+  },
+	
+{
+    "sport": "Girls Basketball",
+    "title": "Trevor vs Calhoun",
+    "date": "2026-01-21",
+    "time": "16:00",
+    "url": "GirlsBasketballPage.html",
+    "result": null,
+    "score_us": null,
+    "score_them": null,
+    "location": "Home"
+  },
+	
+{
+    "sport": "Girls Basketball",
+    "title": "Trevor vs Loyola",
+    "date": "2026-01-23",
+    "time": "17:30",
+    "url": "GirlsBasketballPage.html",
+    "result": null,
+    "score_us": null,
+    "score_them": null,
+    "location": "Home"
+  },
+	
+{
+    "sport": "Girls Basketball",
+    "title": "Trevor vs Grace Church",
+    "date": "2026-01-28",
+    "time": "17:30",
+    "url": "GirlsBasketballPage.html",
+    "result": null,
+    "score_us": null,
+    "score_them": null,
+    "location": "Home"
+  },
+	
+{
+    "sport": "Girls Basketball",
+    "title": "Trevor vs Columbia",
+    "date": "2026-01-30",
+    "time": "16:00",
+    "url": "GirlsBasketballPage.html",
+    "result": null,
+    "score_us": null,
+    "score_them": null,
+    "location": "Home"
+  },
+	
+ {
+    "sport": "Boys Basketball",
+    "title": "Trevor vs Saint Ann's",
+    "date": "2025-12-1",
+    "time": "16:00",
+    "url": "BasketballPage.html",
+    "result": "Win",
+    "score_us": 71,
+    "score_them": 53,
+    "location": "Home"
+  },
+
+	 {
+    "sport": "Boys Basketball",
+    "title": "Trevor vs Dalton",
+    "date": "2025-12-3",
+    "time": "16:30",
+    "url": "BasketballPage.html",
+    "result": "Win",
+    "score_us": 67,
+    "score_them": 43,
+    "location": "Away"
+  },
+	
+{
+    "sport": "Boys Basketball",
+    "title": "Trevor vs Sacred Heart",
+    "date": "2025-12-5",
+    "time": "17:30",
+    "url": "BasketballPage.html",
+    "result": "Win",
+    "score_us": 67,
+    "score_them": 43,
+    "location": "Away"
+  },
+	
+{
+    "sport": "Boys Basketball",
+    "title": "Trevor vs Lycee Francais De N.Y.",
+    "date": "2025-12-8",
+    "time": "16:00",
+    "url": "BasketballPage.html",
+    "result": "Win",
+    "score_us": 67,
+    "score_them": 43,
+    "location": "Away"
+  },
+		
+{
+    "sport": "Boys Basketball",
+    "title": "Trevor vs Sacred Heart",
+    "date": "2025-12-5",
+    "time": "17:30",
+    "url": "BasketballPage.html",
+    "result": "Win",
+    "score_us": 67,
+    "score_them": 43,
+    "location": "Away"
+  },
+	
+ {
+    "sport": "Boys Basketball",
+    "title": "Trevor vs Sacred Heart",
+    "date": "2025-12-5",
+    "time": "17:30",
+    "url": "BasketballPage.html",
+    "result": "Win",
+    "score_us": 67,
+    "score_them": 43,
+    "location": "Away"
+  }, 
+	
+ {
+    "sport": "Girls Tennis",
+    "title": "Trevor vs St. Mary",
+    "date": "2025-10-12",
+    "time": "15:00",
+    "url": "TennisPage.html",
+    "result": "Win",
+    "score_us": 4,
+    "score_them": 1,
+    "location": "Home"
+  },
+
+ {
+    "sport": "Boys Tennis",
+    "title": "Trevor vs St. Mary",
+    "date": "2025-10-12",
+    "time": "16:00",
+    "url": "TennisPage.html",
+    "result": "Loss",
+    "score_us": 2,
+    "score_them": 3,
+    "location": "Away"
+  },
+	
+ {
+    "sport": "Girls Volleyball",
+    "title": "Trevor vs Prep School",
+    "date": "2025-10-15",
+    "time": "17:00",
+    "url": "VolleyballPage.html",
+    "result": "Win",
+    "score_us": 3,
+    "score_them": 0,
+    "location": "Home"
+  },	
+
+ {
+    "sport": "Boys Volleyball",
+    "title": "Trevor vs Prep School",
+    "date": "2025-10-15",
+    "time": "18:00",
+    "url": "VolleyballPage.html",
+    "result": "Loss",
+    "score_us": 1,
+    "score_them": 3,
+    "location": "Away"
+  },
+	
+ {
+    "sport": "Softball",
+    "title": "Trevor vs St. Joseph",
+    "date": "2025-10-20",
+    "time": "16:00",
+    "url": "SoftballPage.html",
+    "result": "Win",
+    "score_us": 6,
+    "score_them": 2,
+    "location": "Home"
+  },
+
+ {
+    "sport": "Baseball",
+    "title": "Trevor vs St. Joseph",
+    "date": "2025-10-20",
+    "time": "17:00",
+    "url": "BaseballPage.html",
+    "result": "Loss",
+    "score_us": 3,
+    "score_them": 5,
+    "location": "Away"
+  },
+	
+ {
+    "sport": "Golf",
+    "title": "Trevor vs Central School",
+    "date": "2025-10-22",
+    "time": "08:00",
+    "url": "GolfPage.html",
+    "result": "Win",
+    "score_us": 70,
+    "score_them": 75,
+    "location": "Local Course"
+  }
+	
+	
+]

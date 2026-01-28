@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dark Theme</title>
+<link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Boys Basketball - Game Results</title>
+
+  <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css" />
+body {
+    background-color: #F10408;
+    text-align: justify;
+    color: red;
+}
+</style>
+</head>
+<body>
+	
+  <style>
+	  body {
+      background-color: #F10408;
+      text-align: justify;
+      color: red;
+      font-family: Arial, sans-serif;
+    }
+	  
+
+    .fc-daygrid-event {
+      white-space: normal !important;
+    }
+   body {
+      background-color: #F10408;
+      color: dimgrey;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      color: #000000;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+		max-width: 1200px;
+      	margin: 10px auto;
+      	background: 100px;
+		padding: 10px;
+		border-radius: 100px;
+    }
+
+    th, td {
+      padding: 12px;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
+    }
+
+    th {
+      background-color: #F3F0F1;
+      color: #161715;
+    }
+
+    tr:hover {
+      background-color: #f9f9f9;
+    }
+
+    .win { color: green; font-weight: bold; }
+    .loss { color: red; font-weight: bold; }
+
+    nav {
+      margin-bottom: 20px;
+    }
+    
+  </style>
+
+
+<body>
+<!-- Main Container -->
+<div class="container"> 
+
+  <!-- Navigation -->
+  <nav>
+    <ul class="menu">
+      <li><a href="Ath_test1.html">Home</a></li>
+	   <li><a href="calendar1.html">Calendar</a></li>
+      <li>
+        <a href="#">Soccer</a>
+        <ul class="dropdown">
+          <li><a href="GirlSoccerStats.html">Girls Soccer</a></li>
+          <li><a href="#">Boys Soccer</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Track</a>
+        <ul class="dropdown">
+          <li><a href="CrossCountryPage.html">Cross Country</a></li>
+          <li><a href="WinterTrack.html">Winter Track</a></li>
+          <li><a href="#">Spring Track</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Basketball</a>
+        <ul class="dropdown">
+          <li><a href="BoysBasketballPage.html">Boys Basketball</a></li>
+          <li><a href="GirlsBasketballPage.html">Girls Basketball</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Tennis</a>
+        <ul class="dropdown">
+          <li><a href="#">Girls Tennis</a></li>
+          <li><a href="#">Boys Tennis</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Volleyball</a>
+        <ul class="dropdown">
+          <li><a href="#">Girls Volleyball</a></li>
+          <li><a href="#">Boys Volleyball</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Softball</a></li>
+      <li><a href="#">Baseball</a></li>
+      <li><a href="#">Golf</a></li>
+    </ul>
+  </nav>
+
+   <!-- Header -->
+  <header class="header" id="changecolor">
+    <h4 align="center" class="logo" style="font-size: 32px;">Boys Varsity Basketball</h4> 
+  </header>
+
+  <div class="content">
+    <table id="statsTable">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Opponent</th>
+          <th>Time</th>
+          <th>Location</th>
+          <th>Score</th>
+          <th>Result</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Filled dynamically -->
+      </tbody>
+    </table>
+  </div>
+
+  <style>
+    /* Make white part fill the screen */
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    .container {
+      min-height: 100vh;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      padding-bottom: 20px;
+      box-sizing: border-box;
+    }
+
+    .content {
+      flex: 1;
+      background-color: white;
+    }
+  </style>
+
+  <!-- Script for loading JSON -->
+  <script>
+    fetch("calendar1.json")
+      .then(response => {
+        if (!response.ok) throw new Error("Network error loading JSON");
+        return response.json();
+      })
+      .then(data => {
+        const games = data.filter(item => item.sport === "Boys Basketball");
+        const tbody = document.querySelector("#statsTable tbody");
+
+        function formatTime(timeStr) {
+          if (!timeStr) return "";
+          const [hour, minute] = timeStr.split(":").map(Number);
+          const period = hour >= 12 ? "PM" : "AM";
+          const hour12 = hour % 12 || 12;
+          return `${hour12}:${minute.toString().padStart(2, "0")} ${period}`;
+        }
+
+        games.forEach(game => {
+          const row = document.createElement("tr");
+
+          const date = game.date ? new Date(game.date).toLocaleDateString() : "";
+          const time = formatTime(game.time);
+          const resultClass = game.result && game.result.toLowerCase() === "win" ? "win" :
+                              game.result && game.result.toLowerCase() === "loss" ? "loss" : "";
+
+          row.innerHTML = `
+            <td>${date}</td>
+            <td>${game.title.replace("Trevor vs ", "")}</td>
+            <td>${time}</td>
+            <td>${game.location || ""}</td>
+            <td>${game.score_us != null && game.score_them != null ? game.score_us + " - " + game.score_them : ""}</td>
+            <td class="${resultClass}">${game.result || ""}</td>
+          `;
+
+          tbody.appendChild(row);
+        });
+
+        if (games.length === 0) {
+          tbody.innerHTML = `<tr><td colspan="6">No games available.</td></tr>`;
+        }
+      })
+      .catch(error => {
+        console.error("Error loading stats:", error);
+        document.querySelector("#statsTable tbody").innerHTML =
+          `<tr><td colspan="6">Error loading data.</td></tr>`;
+      });
+  </script>
+
+</div>
+</body>
+</body>
+</html>
